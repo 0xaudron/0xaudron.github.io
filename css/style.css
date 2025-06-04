@@ -1,0 +1,75 @@
+/* Custom styles for 0xaudron portfolio */
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+.hero-logo {
+  width: 96px;
+  height: 96px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  border: 2px solid #222;
+  background: #18181b;
+  box-shadow: 0 4px 24px 0 #0006;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.hero-logo:hover {
+  box-shadow: 0 8px 32px 0 #000a;
+  transform: scale(1.04) rotate(-2deg);
+}
+footer {
+  border-top: 1px solid #333;
+}
+.button-main {
+  @apply w-full py-3 px-6 rounded-lg bg-neutral-800 text-gray-200 font-semibold text-lg hover:bg-neutral-700 transition-colors shadow;
+}
+.card {
+  @apply bg-neutral-900 border border-neutral-800 rounded-lg p-6 shadow hover:border-gray-600 transition-colors;
+  transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+}
+.card:hover {
+  box-shadow: 0 6px 32px 0 #0008;
+  border-color: #666;
+  transform: translateY(-4px) scale(1.02);
+}
+.card-title {
+  @apply text-xl font-bold mb-2;
+}
+.card-date {
+  @apply text-gray-500 text-sm mb-2;
+}
+.card-excerpt {
+  @apply text-gray-400 mb-4;
+}
+/* Test card style for random entries */
+.test-card {
+  @apply bg-neutral-800 border border-neutral-700 rounded-lg p-4 shadow hover:border-gray-500 transition-colors;
+}
+.test-title {
+  @apply text-lg font-semibold mb-1;
+}
+.test-date {
+  @apply text-gray-400 text-xs mb-1;
+}
+.test-excerpt {
+  @apply text-gray-500 mb-2;
+}
+@media (max-width: 640px) {
+  .hero-logo {
+    width: 72px;
+    height: 72px;
+  }
+  .card {
+    padding: 1.25rem;
+  }
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: fadeInUp 0.8s cubic-bezier(.4,0,.2,1) forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

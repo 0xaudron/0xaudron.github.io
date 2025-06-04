@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "title": "How I Found CVE-2023-6747 in the Wild",
+      "date": "2025-06-01",
+      "excerpt": "A deep dive into the vulnerability discovery process and lessons learned.",
+      "slug": "cve-2023-6747"
+    },
+    {
+      "title": "DeFi Security: What Auditors Look For",
+      "date": "2025-05-20",
+      "excerpt": "Key red flags and best practices for DeFi protocol audits.",
+      "slug": "defi-security-auditors"
+    },
+    {
+      "title": "Web2 vs Web3 Security: My Journey",
+      "date": "2025-05-10",
+      "excerpt": "Comparing the challenges and rewards of securing traditional and decentralized apps.",
+      "slug": "web2-vs-web3-security"
+    },
+    {
+      "title": "Vulnerabilities in Major Brands: A Case Study",
+      "date": "2025-04-28",
+      "excerpt": "How I uncovered bugs in eBay, Accenture, Pizza Hut, and more.",
+      "slug": "major-brand-vulns"
+    },
+    {
+      "title": "Smart Contract Audit Tools I Use",
+      "date": "2025-04-15",
+      "excerpt": "A rundown of my favorite tools for EVM and Solana contract analysis.",
+      "slug": "audit-tools"
+    },
+    {
+      "title": "Random Test Blog 1",
+      "date": "2025-06-04",
+      "excerpt": "This is a test blog entry for development.",
+      "slug": "test-blog-1"
+    },
+    {
+      "title": "Random Test Blog 2",
+      "date": "2025-06-03",
+      "excerpt": "Another test blog entry to check the UI.",
+      "slug": "test-blog-2"
+    }
+  ]
+}

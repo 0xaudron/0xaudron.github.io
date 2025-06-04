@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "title": "Audit Week: Lessons Learned",
+      "date": "2025-06-03",
+      "content": "Reflections on a week of smart contract audits and the most common pitfalls I found."
+    },
+    {
+      "title": "CVEs and Responsible Disclosure",
+      "date": "2025-05-25",
+      "content": "How I reported CVE-2023-6747 and the process of working with vendors."
+    },
+    {
+      "title": "Web3 Security Community",
+      "date": "2025-05-15",
+      "content": "Why sharing knowledge and tools is key to a safer ecosystem."
+    },
+    {
+      "title": "On Finding Bugs in Big Brands",
+      "date": "2025-05-01",
+      "content": "A look back at my experience reporting vulnerabilities to major companies."
+    },
+    {
+      "title": "Random Test Journal 1",
+      "date": "2025-06-04",
+      "content": "This is a test journal entry for development."
+    },
+    {
+      "title": "Random Test Journal 2",
+      "date": "2025-06-03",
+      "content": "Another test journal entry to check the UI."
+    }
+  ]
+}
